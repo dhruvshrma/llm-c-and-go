@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "llm-c"
+version = "0.1.0"
+description = "Python dependencies for llm-c"
+authors = ["Dhruv Sharma <dhruv.sharma@polytechnique.org>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.2"
+transformers = "^4.48.3"
+datasets = "^3.2.0"
+tiktoken = "^0.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
